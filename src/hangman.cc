@@ -82,7 +82,7 @@ void Game::play(void)
 		char guess;
 
 		this->draw_word();
-		std::cout << "Guess a character or word (wrong so far: " 
+		std::cout << "Guess one or more characters (wrong so far: " 
 			  << this->wrong_so_far << "): ";
 		std::cin >> guess;
 		this->check_character(guess);
